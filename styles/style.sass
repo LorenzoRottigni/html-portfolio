@@ -1,0 +1,143 @@
+$magenta: #F7347A
+$magentaRGB: (247,52,122)
+$lightblue: #0FF1CE
+$lightblueRGB: (15,241,206)
+$purple: #660066
+$purpleRGB: (102,0,102)
+
+body
+    background-color: white
+    color: white
+h2
+    color: white
+h4
+    opacity: 0.9
+.responsive-text
+    font-size: 8vw !important
+img
+    width: 100%
+    max-height: 50vh
+i 
+    transition: 0.5s
+.text-blue
+    color: #2980B9
+section.hero-section
+    background-image: url('../images/lake-background.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top center
+    height: 50vh
+    position: relative
+section.social-section
+    background-color: #377770   
+    font-size: 2.35em
+.social-section div[class^="col-"]:hover
+    background-color: white
+.social-section div[class^="col-"]:hover a 
+    color: #377770 !important
+.social-row .col-3
+    position: relative 
+.hero-section svg
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 99
+section.what-can-i-do
+    background-color: white
+    text-align: center
+    border-bottom: solid 1px #377770
+    border-top: solid 1px #377770
+section.what-can-i-do:hover
+    background-color: #377770
+section.what-can-i-do a
+    color: #377770
+section.what-can-i-do:hover a
+    color: white
+@keyframes typing 
+    0%
+        width: 0%
+    100%
+        width: 100%
+section.welcome-sentence-section
+    background-color: #377770
+    font-family: 'Dancing Script', cursive
+    border-top: solid white 1px
+section.welcome-sentence-section h2
+    animation: typing 6s 1
+    overflow: hidden
+    white-space: nowrap
+section.boolean-section
+    background-color: white
+    font-weight: bold
+    color: #00e264 
+    font-size: 26px 
+.boolean-container
+    max-width: 400px
+section.boolean-section a
+    width: 40%
+img[src="images/boolean-logo.png"]
+    transition: 1s
+img[src="images/boolean-logo.png"]:hover
+    transform: scale(130%)
+section.welcome-section
+    background-color: #85C1E9
+    font-size: 20px
+section.send-email
+    background-color: #2980B9
+
+.input-group span
+    width: 80px
+section.square-section
+    color: black
+    background-color: #A569BD  
+section.square-section button
+    background-color: #A569BD !important
+    color: white !important
+section.square-section button:hover i
+    transform: translateX(15px)
+section.send-email .input-group,
+section.send-email button
+    width: 90%
+    margin: 0 auto
+section.send-email form
+    max-width: 500px
+footer
+    background-color: white
+footer .container-fluid
+    background-color: #6c5b7b
+#accordionFlush
+    max-width: 700px
+    
+    
+#accordionFlush button
+    background-color: #6c5b7b  
+#accordionFlush *
+    color: black !important
+.accordion-button:focus
+    border: none !important
+.accordion-item
+    border-bottom: none
+@media screen and ( min-width: 576px )
+    section.hero-section
+        width: 80%
+        float: left
+        height: 80vh
+        background-position: right
+    section.social-section
+        width: 20%
+        float: right
+    .social-row
+        height: 80vh
+    .super-center
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+    .responsive-text
+        font-size: 6vw !important     
+   
+@media screen and ( min-width: 992px )
+    .responsive-text
+        font-size: 6vw !important 
